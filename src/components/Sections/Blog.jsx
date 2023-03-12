@@ -11,11 +11,11 @@ export default function Blog() {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Blog Stories</h1>
+            <h1 className="font40 extraBold">Our Blog</h1>
             <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              labore et
             </p>
           </HeaderInfo>
           <div className="row textCenter">
