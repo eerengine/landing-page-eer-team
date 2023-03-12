@@ -21,7 +21,7 @@ jobs:
           node-version: '16'
 
       - name: ⭐ Build Client app
-        working-directory: landing-page-eer-team
+        working-directory:
         env:
           CI: false
           NODE_OPTIONS: '--max-old-space-size=8192'
