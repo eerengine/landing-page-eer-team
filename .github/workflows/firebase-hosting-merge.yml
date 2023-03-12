@@ -21,14 +21,9 @@ jobs:
           node-version: '16'
 
       - name: ⭐ Build Client app
-        working-directory: /
-        env:
-          CI: false
-          NODE_OPTIONS: '--max-old-space-size=8192'
-          REACT_APP_FIREBASE_CONFIG: ${{ secrets.REACT_APP_FIREBASE_CONFIG }}
         run: |
           set -x
-          npm ci
+          npm install
           npm run build
       - name: ↗️ Archive client build artifact
         uses: actions/upload-artifact@v3
